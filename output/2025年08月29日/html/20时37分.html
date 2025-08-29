@@ -1,0 +1,110 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 247</p><p>生成时间: 2025-08-29 20:37:15</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>zaochenbao</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">经济数据 市场与资金 政策与监管 估值 业绩 财报 经济 资金 龙虎榜</td>
+                <td class="count">4</td>
+                <td class="percentage">1.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=93%E9%98%85%E5%85%B5%E5%9C%A8%E7%BB%8F%E6%B5%8E%E5%B1%82%E9%9D%A2%E7%9A%84%E6%B7%B1%E8%BF%9C%E6%84%8F%E4%B9%89" target="_blank" class="news-link">93阅兵在经济层面的深远意义</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754524" target="_blank" class="news-link">阿里Q2 Non-Gaap净利润同比下降18%，云业务收入增26%，淘宝闪购提振月活增25% | 财报见闻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时37分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E8%81%8A2025%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E" target="_blank" class="news-link">UP聊2025中国经济有哪些重点方向</a> [6] <font color='grey'>- 20时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754450" target="_blank" class="news-link">美联储理事库克就免职起诉，暗示房贷源于文书错误，警告免职会让美国经济有风险</a> [7] <font color='grey'>- 20时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2130290" target="_blank" class="news-link">科技巨头失宠！美股8月风格巨变：小盘股时代来临？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时37分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH688008" target="_blank" class="news-link">澜起科技</a> [18] <font color='grey'>- 20时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/29/abc3f1b9ca354e04860fed3800c4c678.html" target="_blank" class="news-link">英伟达营收利润均超市场预期</a> [11] <font color='grey'>- 20时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/29/d40cbc46e29241e1a991db7f7834607f.html" target="_blank" class="news-link">广东佛山推新规支持机器人产业</a> [24] <font color='grey'>- 20时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
