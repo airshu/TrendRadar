@@ -1,0 +1,118 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 235</p><p>生成时间: 2025-10-06 20:38:40</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>zaochenbao</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">经济数据 市场与资金 政策与监管 估值 业绩 财报 经济 资金 龙虎榜</td>
+                <td class="count">5</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756706" target="_blank" class="news-link">日元重挫、日股大涨！市场开启“高市早苗交易”，应对“安倍经济学”回归</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756707" target="_blank" class="news-link">“早苗经济学”：“安倍经济学”的2.0版本？</a> [10] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2162737" target="_blank" class="news-link">【早报】国庆假期前半程交通出行人数创历史新高；9月百强房企销售业绩回暖</a> [10] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2162671" target="_blank" class="news-link">“金九”楼市回暖：百强房企9月操盘销售额破2500亿 72家业绩环比上涨</a> [13] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31733236" target="_blank" class="news-link">日元重挫、日股大涨！“安倍经济学”继承人高市早苗执政将如何影响市场</a> [17] <font color='grey'>- 20时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">AMD</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/AMD" target="_blank" class="news-link">AMD</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756722" target="_blank" class="news-link">AMD飙升35%！OpenAI与其签订高达6GW芯片协议，且通过期权有望持股10%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756709" target="_blank" class="news-link">看好中国AI芯片！高盛“又双叒叕”上调中芯国际和华虹半导体目标价</a> [6] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%9D%A8%E5%8D%9A%E6%96%87%E6%89%AB%E8%85%BF%E8%88%9E+%E8%AF%A1%E5%BC%82%E5%A6%82ai&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%25E6%259D%25A8%25E5%258D%259A%25E6%2596%2587%25E6%2589%25AB%25E8%2585%25BF%25E8%2588%259E%2520%25E8%25AF%25A1%25E5%25BC%2582%25E5%25A6%2582ai%26band_rank%3D15%26stream_entry_id%3D31%26realpos%3D15%26pos%3D14%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26lcate%3D5001%26flag%3D1%26cate%3D5001%26display_time%3D1759753934%26pre_seqid%3D175975393454302360530105" target="_blank" class="news-link">杨博文扫腿舞 诡异如ai</a> [15] <font color='grey'>- 20时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756708" target="_blank" class="news-link">恒生科技收跌1%，科技汽车股普跌，华虹半导体盘中创新高，紫金矿业涨2%</a> [9] <font color='grey'>- 20时38分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/MU" target="_blank" class="news-link">美光科技</a> [19] <font color='grey'>- 20时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/NVDA" target="_blank" class="news-link">英伟达</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
